@@ -1,0 +1,94 @@
+$color-company-main: #38bcdb;
+$color-company-light: #2e91a3;
+$color-company-lighter: #8bd7e7;
+
+
+@import "../node_modules/ack-css-boot/scss/ack-css-boot.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,500,700');
+
+
+/* browser correction classes  */
+  * {box-sizing:border-box}/* ease the pain of width management */
+  button {font-size:1em}
+
+  body,html{
+    margin:0;padding:0;
+    height:100%;width:100%;
+    @extend .no-scroll-bars;
+    /*@extend .bg-positive;*/
+    background-color:#444;
+  }
+/* end: browser correction classes */
+
+body,html{
+  font-size:15px;
+  color:#666;
+  line-height:1.35;
+  @extend .font-company-main;
+}
+
+.font-company-main{
+  font-family: Roboto, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;  
+}
+
+.font-company-lite{
+  font-family: 'Roboto Slab', Roboto, Helvetica, sans-serif
+}
+
+.max-page-width{
+  max-width: 1170px
+}
+
+.page-contain{
+  padding-left: 3em;
+  padding-right: 3em;
+  @extend .max-page-width;
+}
+
+.page-contain-mobile{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.page-contain-2x{
+  padding-right: 4em;
+  @extend .page-contain;
+}
+
+.bg-company-main{
+  background-color:$color-company-main
+}
+
+.bg-company-lighter{
+  background-color:$color-company-lighter
+}
+
+.hover-bg-company-light:hover{
+  background-color:$color-company-light
+}
+
+.border-company-main{
+  border-color:$color-company-main
+}
+
+.text-company-main{
+  color:$color-company-main
+}
+
+.content-section-head{
+  font-weight:500;
+  @extend .underline;
+  @extend .underline-no-skip;
+}
+
+.underline-input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}
+
+.underline-input::placeholder{
+  color:black;opacity:1;
+}
