@@ -9,6 +9,9 @@ Open a command terminal and use any of the following commands
 > You must have NodeJs install and have a very basic understanding of CLI commands
 
 ```
+$ git clone https://github.com/AckerApple/trilogy-intro.git
+```
+```
 $ npm run install
 ```
 ```
@@ -51,7 +54,7 @@ $ npm run watch
   - Safari does not support solid underline that was used
     - possible webkit only declaration exists
 - Fonts are not 100%
-  - Highly advice against using fixed PX sizes
+  - Highly advise against using fixed PX sizes
     - Relative sizes were used (em and %)
       - Far more compatible with individual devices
 - FAQ in desktop mode
