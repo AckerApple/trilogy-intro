@@ -1,5 +1,7 @@
-TODO:
-  - inject proper fonts instead of import
+## Trilogy Exam
+Acker Apple steps up to the plate to test his skills against the Trilogy intro exam.
+
+[DEMO PAGE](https://ackerapple.github.io/trilogy-intro/)
 
 ## Development Commands
 Open a command terminal and use any of the following commands
